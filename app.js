@@ -3,7 +3,7 @@ var inputText = document.querySelector("#input-txt");
 var btnTranslate = document.querySelector("#btn-translate");
 var outputText = document.querySelector("#output");
 
-var serverURL= "https://api.funtranslations.com/translate/yoda.json";
+var serverURL= "https://api.funtranslations.com/translate/pirate.json";
 
 function getTranslationURL(text){
     return serverURL+"?text="+text;
@@ -26,4 +26,4 @@ function eventHandler(){
     .catch(errorHandler)
 }
 
-btnTranslate.addEventListener("click", eventHandler);
+btnTranslate.addEventListener("click", eventHandler); 
