@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
 
 
 :root{
@@ -52,7 +52,7 @@ div h3{
     padding: 1rem;
     margin: 2rem auto;
     border-radius: 1rem;
-    font-size: ;
+    font-size: large;
 }
 
 .btn{
